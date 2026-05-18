@@ -24,7 +24,7 @@ The documentation for AAUDA can be found in the [GitHub project wiki](https://gi
 ## Installing the framework
 The framework can be directly downloaded or cloned from this GitHub repository. The framework is designed to run in Matlab 2020b. A few Matlab Toolboxes might have to be installed to run specifical functionalities of the framework.
 
-## Authorship, licence and citation
+## Authorship, license and citation
 This framework has been developped by Leire Retegui-Schiettekatte, with notable contributions of Maike Schumacher (monthly EnKF), Nooshin Mehrnegar (river routing model), Ehsan Forootan (EnKF-Rescaling approach), Manuela Girotto (mixed covariance localization approach), and Fan Yang (general DA implementation).
 
 The framework is licensed under a
