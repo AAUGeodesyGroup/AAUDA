@@ -5,7 +5,7 @@ AAUDA is a Matlab-based framework designed to conduct land hydrological Data Ass
 * Includes different covariance localization techniques such as observation space localization and model space localization
 * Offers the possibility to conduct DA experiments in different timescales, ranging daily to monthly.
 
-The framework is currently coupled with the World-Wide Water Resources Assessment (W3RA) water balance model. The original model was developped by Albert van Dijk [1] [2].
+The framework is currently coupled with the World-Wide Water Resources Assessment (W3RA) water balance model. The original model was developped by Albert van Dijk [[1]](https://awo.bom.gov.au/assets/notes/publications/Van_Dijk_AWRA05_TechReport3.pdf) [[2]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/wrcr.20251).
 
 > [!NOTE]
 > **Repository in construction**
