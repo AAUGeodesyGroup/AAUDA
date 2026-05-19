@@ -1,0 +1,54 @@
+{
+    "run":{
+        "fromdate":"2002-01-01", 
+        "todate":"2002-12-31",
+        "EnsRun": 1,
+        "DA":0,
+        "RR":0
+    }, 
+    "keywords":{
+        "%n":"%n",
+        "%rootfolder":"~/Desktop/DansK-LSM_Leire/Code/AAUDA_Github/"
+    },
+    "input":{
+        "clim":{
+            "directory":"%rootfolder/Data/01_Single_Climat/", 
+            "albedo":"albedo_clim_10k.mat", 
+            "windspeed":"Windspeed50m_clim_10k.mat", 
+            "pres":"Prin_pres_CLIM_20002008_10k.mat"
+        }, 
+        "pars":"%rootfolder/Data/02_Perturbed_Param/ens%n/par_10k_nonan.mat", 
+        "forcing":{
+            "directory":"%rootfolder/Data/01_Single_Forcing/", 
+            "prcp":"../02_Perturbed_Forcing/ens%n/", 
+            "dswrf":"dswrf_10k/", 
+            "tmax":"tmax_10k/", 
+            "tmin":"tmin_10k/"
+        },
+        "landmask":"%rootfolder/Data/01_Landmask/landmask_10k_nonan.mat"
+    }, 
+    "states":{
+        "directory":"%rootfolder/States_Outputs/02_Ensemble_States/ens%n/",
+        "routing":"%rootfolder/States_Outputs/02_Ensemble_States/RStates/ens%n/"
+    },
+    "output":{
+        "vars":["Qtot"],
+        "directory":"%rootfolder/States_Outputs/02_Ensemble_States/Output/ens%n/"
+    },
+    "summary":{
+      	"Print processing receipt":1,
+      	"Extract Ensemble-Averaged":1,
+      	"Extract Ensemble-Subbasin-Averaged":0,
+      	"Extract Ensemble-Averaged-Grid-wise":[],
+      	"directory":"%rootfolder/States_Outputs/02_Ensemble_States/Summary/"
+    },
+    "ensemble options":{
+        "nE":30
+    },
+        "DA options":{
+    	"Other data":{
+        	"log_in":"%rootfolder/Data/03_DA_Files/log_in/log_10k_in_nonan.mat"
+        }
+        	
+    }
+}

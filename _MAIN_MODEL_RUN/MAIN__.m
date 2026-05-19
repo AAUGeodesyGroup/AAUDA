@@ -5,7 +5,8 @@ clc, clear all; dbstop if error;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%% INPUT DATA %%%%%%%%%%%%%%%%%%%%%
 
- settings = '01_setting_single.json'; % Configuration file.
+% settings = '01_setting_single.json'; % Configuration file.
+settings = '02_setting_ensemble.json'; % Configuration file.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
