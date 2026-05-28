@@ -1,11 +1,11 @@
-# Aalborg University Data Assimilation framework (AAUDA)
+# Aalborg University Geodesy Group Data Assimilation framework (AAUDA)
 
 AAUDA is a Matlab-based framework designed to conduct land hydrological Data Assimilation (DA) experiments. Particularly, it includes scripts to assimilate satellite-based Terrestrial Water Storage (TWS) and Surface Soil Moisture (SSM) observations (retrievals). The current framework offers the following features:
 * Spans various DA techniques belonging to the Ensemble Kalman Filter (EnKF) family, including the classical EnKF and the EnKF-Rescaling approach
 * Includes different covariance localization techniques such as observation space localization and model space localization
 * Offers the possibility to conduct DA experiments in different timescales, ranging daily to monthly.
 
-The framework is currently coupled with the World-Wide Water Resources Assessment (W3RA) water balance model. The original model was developped by Albert van Dijk [[1]](https://awo.bom.gov.au/assets/notes/publications/Van_Dijk_AWRA05_TechReport3.pdf) [[2]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/wrcr.20251).
+The framework is currently coupled with the World-Wide Water Resources Assessment (W3RA) water balance model, which was originally developped by Albert van Dijk [[1]](https://awo.bom.gov.au/assets/notes/publications/Van_Dijk_AWRA05_TechReport3.pdf) [[2]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/wrcr.20251) and can be found in [this Dropbox folder](https://www.dropbox.com/scl/fo/b0hneugr9vao0rqm4oh86/AEPPU-QG6kgh9wTlIBgiwMQ?rlkey=q7ux08mitdghnoac3e4spwaev&e=2&dl=0).
 
 > [!NOTE]
 > **Repository in construction**
@@ -25,7 +25,7 @@ The documentation for AAUDA can be found in the [GitHub project wiki](https://gi
 The framework can be directly downloaded or cloned from this GitHub repository. The framework is designed to run in Matlab 2020b. A few Matlab Toolboxes might have to be installed to run specifical functionalities of the framework.
 
 ## Authorship, license and citation
-This framework has been developped by Leire Retegui-Schiettekatte, with notable contributions of Maike Schumacher (monthly EnKF), Nooshin Mehrnegar (river routing model), Ehsan Forootan (EnKF-Rescaling approach), Manuela Girotto (mixed covariance localization approach), and Fan Yang (general DA implementation).
+This framework has been developped by Leire Retegui-Schiettekatte, with notable contributions of Maike Schumacher (monthly EnKF), Nooshin Mehrnegar (river routing model), Ehsan Forootan (EnKF-Rescaling approach), Manuela Girotto (mixed covariance localization approach), and Fan Yang (general DA implementation). The W3RA model was originally developped by Albert van Dijk.
 
 The framework is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
